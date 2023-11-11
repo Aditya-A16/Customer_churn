@@ -40,9 +40,9 @@ def main():
         print(input_data)
         prediction = model.predict(input_data)
         if prediction[0] == 0:
-            st.write("Prediction: Customer will not churn")
+            st.write("Prediction: Customer will not churn!!")
         else:
-            st.write("Prediction: Customer will churn")
+            st.write("Prediction: Customer will churn!!")
 
 if __name__ == "__main__":
     main()
